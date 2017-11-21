@@ -39,7 +39,7 @@ function checkIfLetterPrevUsed (userGuess) {
 								//Since letter guessed matches letter in the word, toggle div for that letter so that it is visible.
 								//Set indicator that would tell you if the letter matches.
 								//Check if the indicator is true. If it is, toggle the div. 
-								
+
 								alert("Time to choose another letter to test.");
 								break;
 						}
@@ -68,11 +68,14 @@ function chooseWord () {
         		console.log("hi");
    //      	// Display the word on the Webpage
    			 hiddenWord = wordList[s].split("-");
-   			 alert("hidden word = " + hiddenWord)
+   			 console.log("hidden word = " + hiddenWord)
+   			 alert ("The hidden word is in the console as I was unable to successfully complete the UI of the game.")
 			// var testWord = wordList[s];
 			// var counts = wordList[s].length;
 	 	
  		//Display Hangman Word
+
+
 
  		
  			
